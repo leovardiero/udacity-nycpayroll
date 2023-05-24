@@ -1,0 +1,17 @@
+{
+	"name": "adf-udacity-nycpayroll",
+	"properties": {
+		"globalParameters": {
+			"$dataflow_param_fiscalyear": {
+				"type": "int",
+				"value": 2000
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "93d28252-e44f-4942-909b-225410c18309",
+		"tenantId": "81040e7d-cfcd-47ef-a82e-813f7ee7d75f"
+	}
+}
